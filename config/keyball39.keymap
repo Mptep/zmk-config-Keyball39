@@ -102,16 +102,6 @@
             >;
         };
 
-        scroll_layer {
-            label = "SCROLL";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans     &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &mkp LCLK  &mkp MB2  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans     &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                               &trans
-            >;
-        };
-
         mouse_layer {
             label = "MOUSE";
             bindings = <
@@ -119,6 +109,16 @@
 &trans  &trans  &trans  &trans  &trans                  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans     &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans
+            >;
+        };
+
+        scroll_layer {
+            label = "SCROLL";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                  &trans     &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &mkp LCLK  &mkp MB2  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans     &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                               &trans
             >;
         };
 
